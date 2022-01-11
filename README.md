@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🟣 `@ricardo-jrm/vera`
+# 🟢 `@ricardo-jrm/vera`
 
-<b>React Module Boilerplate</b>
+<b>Vega + React</b>
 
 ![build](https://img.shields.io/github/workflow/status/ricardo-jrm/vera/Continuous%20Integration?style=for-the-badge)
 ![license](https://img.shields.io/github/license/ricardo-jrm/vera?style=for-the-badge)
