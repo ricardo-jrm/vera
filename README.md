@@ -61,6 +61,8 @@ import { Vera, VeraProps } from '@ricardo-jrm/vera';
 - `Yarn`
 - `Typescript`
 - `React`
+- `Vega`
+- `Vega Lite`
 - `Prettier`
 - `ESLint`
 - `Commit Lint`
