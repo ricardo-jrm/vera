@@ -44,23 +44,7 @@ yarn add @ricardo-jrm/vera
 
 ```tsx
 // component
-import {
-  ExampleComponent,
-  ExampleComponentProps,
-} from '@ricardo-jrm/vera';
-
-// hook
-import { useExampleHook, ExampleHookType } from '@ricardo-jrm/vera';
-
-// context
-import {
-  ExampleContext,
-  useExampleContext,
-  ExampleContextType,
-} from '@ricardo-jrm/vera';
-
-// provider
-import { ExampleProvider, ExampleProviderProps } from '@ricardo-jrm/vera';
+import { Vera, VeraProps } from '@ricardo-jrm/vera';
 ```
 
 <br />
