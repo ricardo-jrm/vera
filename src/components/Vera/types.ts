@@ -1,6 +1,13 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export type VeraRenderType = 'svg' | 'canvas';
 
-export type VeraFieldName = string;
+export type VeraFieldKey = string;
+
+export type VeraFieldKind = 'x' | 'y' | 'tooltip';
+
+export type VeraFieldScaleOpts = {
+  zero?: boolean;
+};
 
 export type VeraFieldType =
   | 'nominal'
@@ -34,3 +41,35 @@ export type VeraMarkOpts = {
    */
   tooltip?: boolean;
 };
+
+/**
+ * Vera props
+ */
+export interface VeraProps {
+  width?: number;
+  height?: number;
+  renderer?: VeraRenderType;
+  /**
+   * Data to visualize
+   */
+  data: any | undefined;
+  /**
+   * Mark type to render
+   */
+  mark?: VeraMarkType;
+  markOpts?: VeraMarkOpts;
+  x: {
+    key: VeraFieldKey;
+    type: VeraFieldType;
+    scale?: VeraFieldScaleOpts;
+  };
+  y: {
+    key: VeraFieldKey;
+    type: VeraFieldType;
+    scale?: VeraFieldScaleOpts;
+  };
+  tooltip?: {
+    key: VeraFieldKey;
+    type: VeraFieldType;
+  };
+}

@@ -91,6 +91,7 @@
     "react/jsx-first-prop-new-line": "warn",
     "block-spacing": "warn",
     "brace-style": "warn",
-    "react/jsx-closing-bracket-location": "warn"
+    "react/jsx-closing-bracket-location": "warn",
+    "prefer-const": "warn"
   }
 }
