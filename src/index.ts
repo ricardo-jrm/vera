@@ -1,11 +1,8 @@
-export { ExampleComponent } from './components/Example';
-export type { ExampleComponentProps } from './components/Example';
+export type {
+  VeraFieldName,
+  VeraFieldType,
+  VeraMarkType,
+} from './components/Vera/types';
 
-export { useExampleHook } from './hooks/useExampleHook';
-export type { ExampleHookType } from './hooks/useExampleHook';
-
-export { ExampleContext, useExampleContext } from './contexts/ExampleContext';
-export type { ExampleContextType } from './contexts/ExampleContext';
-
-export { ExampleProvider } from './providers/ExampleProvider';
-export type { ExampleProviderProps } from './providers/ExampleProvider';
+export { Vera } from './components/Vera';
+export type { VeraProps } from './components/Vera';
