@@ -2,13 +2,10 @@
 export type VeraRenderType = 'svg' | 'canvas';
 
 export type VeraFieldKey = string;
-
 export type VeraFieldKind = 'x' | 'y' | 'tooltip';
-
 export type VeraFieldScaleOpts = {
   zero?: boolean;
 };
-
 export type VeraFieldType =
   | 'nominal'
   | 'quantitative'
@@ -29,7 +26,6 @@ export type VeraMarkType =
   | 'square'
   | 'text'
   | 'tick';
-
 export type VeraMarkOpts = {
   size?: number;
   /**
@@ -43,7 +39,7 @@ export type VeraMarkOpts = {
 };
 
 /**
- * Vera props
+ * Vera component interface
  */
 export interface VeraProps {
   width?: number;
