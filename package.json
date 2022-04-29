@@ -1,21 +1,21 @@
 {
-  "name": "@ricardo-jrm/vera",
+  "name": "@ricardojrmcom/vera",
   "description": "Vega + React",
-  "version": "0.0.0-development",
+  "version": "0.0.1-development",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/vera.git"
+    "url": "https://github.com/ricardojrmcom/vera.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/vera#readme",
+  "homepage": "https://github.com/ricardojrmcom/vera#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/vera/issues"
+    "url": "https://github.com/ricardojrmcom/vera/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -51,7 +51,7 @@
     "@babel/preset-typescript": "^7.16.0",
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^15.0.0",
-    "@ricardo-jrm/empathy": "^1.0.1",
+    "@ricardojrmcom/empathy": "^2.0.0",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",
     "@storybook/addon-links": "^6.4.9",

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { useEmpathy } from '@ricardo-jrm/empathy';
+import { useEmpathy } from '@ricardojrmcom/empathy';
 import { Vera } from '.';
 import type { VeraProps } from './types';
 
